@@ -9,7 +9,7 @@ $another_metric=Get-Random -Maximum 100
 
 @"
 __METRICS__={{
-  one_metric: {0:d},
-  another_metric: {1:d}
+  "one_metric": {0:d},
+  "another_metric": {1:d}
 }}
 "@ -f $one_metric, $another_metric
